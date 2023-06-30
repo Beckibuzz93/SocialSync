@@ -1,0 +1,37 @@
+body {
+  background-color: #F0EAD6;
+  font-family: 'Poppins', sans-serif;
+}
+
+#login-card {
+  background-color: #D1D1E9;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#6246EA
+}
+
+.login-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-top h2::first-letter {
+  font-size: 200%;
+  color: #e45858;
+}
+
+.btn {
+    background: #6246EA !important;
+}
+.btn:hover {
+    background-color: #6b51eb !important;
+}

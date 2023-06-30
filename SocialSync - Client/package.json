@@ -1,0 +1,18 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"watchify ./js/index.js -o bundle.js\" \"live-server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "live-server": "^1.2.2",
+    "watchify": "^4.0.0"
+  }
+}
+

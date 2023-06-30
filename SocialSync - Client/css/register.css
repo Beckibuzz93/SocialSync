@@ -1,0 +1,34 @@
+body {
+  background-color: #F0EAD6;
+  font-family: 'Poppins', sans-serif;
+}
+
+#register-card {
+  background-color: #D1D1E9;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+}
+
+#register-btn {
+  background-color: #6246EA !important;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#6246EA
+}
+
+.register-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-top h2::first-letter {
+  font-size: 200%;
+  color: #e45858;
+}

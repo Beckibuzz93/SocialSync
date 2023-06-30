@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+} 
+html, 
+body{
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-bg-color {
+    background-color: #F0EAD6;
+}
+.secondary-bg-color {
+    background-color: #D1D1E9;
+}
+.header-color {
+    color: #2B2C34;
+}
+.header-font {
+    font-family:'Poppins', sans-serif;
+}
+.secondary-font {
+    font-family: 'Vollkorn', serif;
+}
+
+.container-index {
+    display: flex
+}

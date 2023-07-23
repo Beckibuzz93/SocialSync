@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "vite build",
     "dev": "concurrently \"watchify ./js/index.js -o bundle.js\" \"live-server\""
   },
   "keywords": [],
